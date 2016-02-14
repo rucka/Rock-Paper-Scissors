@@ -1,0 +1,38 @@
+*.class
+*.log
+.DS_Store
+writestack/.cache-tests
+
+# sbt specific
+.cache
+.history
+.lib/
+dist/*
+target/
+target-2.10/
+target-2.11/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+journal
+
+
+# Scala-IDE specific
+.metadata
+.scala_dependencies
+.worksheet
+
+#Idea specific
+.idea
+.idea_modules
+
+#ignore specific for Scala-IDE
+build
+.classpath
+.project
+.settings
+org.scala-ide.sdt.core/META-INF/MANIFEST.MF
+org.scala-ide.sdt.update-site/site.xml
+/bin/
+.cache-main
